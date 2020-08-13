@@ -50,6 +50,8 @@ type Event struct {
 	Username            string               `json:"username,omitempty"`
 	WindowID            string               `json:"windowId,omitempty"`
 	WindowOptions       *WindowOptions       `json:"windowOptions,omitempty"`
+	Commandline         string               `json:"commandline,omitempty"`
+	WorkingDirectory    string               `json:"workingDirectory,omitempty"`
 }
 
 // EventAuthInfo represents an event auth info
